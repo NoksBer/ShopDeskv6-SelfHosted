@@ -52,7 +52,7 @@ Run on the **Proxmox node shell**. Creates a Debian 12 LXC (2 cores, 1 GB RAM, 8
 **Option A: from GitHub.** Push this folder to a repo, then run:
 
 ```bash
-SHOPDESK_REPO=youruser/shopdesk bash -c "$(curl -fsSL https://raw.githubusercontent.com/youruser/shopdesk/main/install/shopdesk.sh)"
+SHOPDESK_REPO=NoksBer/ShopDeskv6-SelfHosted bash -c "$(curl -fsSL https://raw.githubusercontent.com/NoksBer/ShopDeskv6-SelfHosted/main/shopdeskv6/install/shopdesk.sh)"
 ```
 
 **Option B: no GitHub.** Copy `shopdesk.tar.gz` and `install/shopdesk.sh` to the node, then run:
